@@ -1,9 +1,9 @@
 <script setup>
-    import { RouterView } from 'vue-router';
     import Header from './components/header.vue'
+    import Home from './components/Home.vue';
 </script>
 
 <template>
     <Header></Header>
-    <RouterView></RouterView>
+    <Home></Home>
 </template>
