@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #fff6fb;
+    font-family: "Inter", sans-serif;
+    min-height: 100vh;
+}
+
+#app {
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-size: 4vw;
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+input {
+    width: 20vw;
+    height: 7.5vh;
+    border: 1px solid black;
+    border-radius: 2vw / 2vw;
+    padding-left: 1%;
+    font-size: 1.5vw;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+    input {
+        width: 40vw;
+        height: 4.5vh;
+        font-size: 3.5vw;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1024px) and (min-height: 700px){
+    input {
+        width: 41vw;
+        height: 5.5vh;
+        font-size: 3.5vw;
+    }
+}
